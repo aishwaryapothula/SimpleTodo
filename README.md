@@ -23,9 +23,13 @@ In the next iterations of the app, I will be implementing the following features
 * [ ] Option to add priority labels
 
 ## Video Walkthrough
-Here's a walkthrough of implemented user stories Here's a second walkthrough with extensions
+Here's a walkthrough of implemented user stories
+* [ ] Add and Delete item
+![](Images/SimpleToDo_AddDelete.gif)
+* [ ] Persistence of list
+![](Images/SimpleToDo_Persistence.gif)
 
-GIF created with LiceCap.
+GIF created with Ezgif.com
 
 ## Notes
 
@@ -34,6 +38,9 @@ GIF created with LiceCap.
 * Had a problem with the Edit Text not being enabled after implementing the recycler view
   * After a lot of time, I realized that this was a layout problem; the recycler view is on top of the edit text
   * To resolve the issue, I set the layout_above attribute of the recycler to id/etItem
+* Due to the version differences, I had to implement the following methods instead of just the 'onItemLongClicked'
+  ![](Images/OnLongClickListener.png)
+  
 
   
 
